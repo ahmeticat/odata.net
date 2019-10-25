@@ -912,7 +912,7 @@ namespace Microsoft.OData.Client.TDDUnitTests.Tests.Annotation
             });
         }
 
-        // github: https://github.com/OData/odata.net/issues/879: Need to support instance annotations on feed or nestedResourceInfo.
+        // github: https://github.com/ahmeticat/odata.net/issues/879: Need to support instance annotations on feed or nestedResourceInfo.
         // [TestMethod]
         public void TestGetAnnotationOnCollectionOfComplexTypePropertyInAnEntity()
         {
@@ -1293,7 +1293,7 @@ namespace Microsoft.OData.Client.TDDUnitTests.Tests.Annotation
             });
         }
 
-        // github: https://github.com/OData/odata.net/issues/879: Need to support instance annotations on feed or nestedResourceInfo.
+        // github: https://github.com/ahmeticat/odata.net/issues/879: Need to support instance annotations on feed or nestedResourceInfo.
         // [TestMethod]
         public void TestGetDerivedInstanceWhileTheTermIsInBaseTypeAnnotationOnODataEntry()
         {

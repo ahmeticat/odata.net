@@ -307,7 +307,7 @@ namespace AstoriaUnitTests.Tests
             }
         }
 
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/875
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/875
         [Ignore] // Remove Atom
         // [TestMethod]
         // [TestCategory("Partition2")]

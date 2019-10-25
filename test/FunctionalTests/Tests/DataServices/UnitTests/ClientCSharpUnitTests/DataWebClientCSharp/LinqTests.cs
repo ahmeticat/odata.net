@@ -24,7 +24,7 @@ namespace AstoriaUnitTests.Tests
     using NorthwindModel;
     #endregion Namespaces
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/881
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/881
     [DeploymentItem("Workspaces", "Workspaces")]
     [TestClass]
     public class LinqTests

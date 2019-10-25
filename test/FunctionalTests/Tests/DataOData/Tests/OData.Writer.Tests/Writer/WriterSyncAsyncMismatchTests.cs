@@ -72,7 +72,7 @@ namespace Microsoft.Test.Taupo.OData.Writer.Tests.Writer
             },
         };
 
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/883
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/883
         [Ignore] // Remove Atom
         // [TestMethod, Variation(Description = "Verifies that sync and async calls cannot be mixed on a single writer.")]
         public void SyncAsyncMismatchTest()

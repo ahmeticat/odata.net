@@ -20,7 +20,7 @@ namespace AstoriaUnitTests.DataWebClientCSharp
     using AstoriaUnitTests.Stubs;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/881
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/881
     /// <summary>
     /// Tests class for databinding of collection properties on the client
     /// </summary>

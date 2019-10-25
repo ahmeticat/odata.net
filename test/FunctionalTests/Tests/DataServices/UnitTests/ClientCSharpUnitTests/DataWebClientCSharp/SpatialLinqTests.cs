@@ -19,7 +19,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AstoriaUnitTests.DataWebClientCSharp
 {
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/881
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/881
     // [TestClass]
     public class SpatialLinqTests
     {

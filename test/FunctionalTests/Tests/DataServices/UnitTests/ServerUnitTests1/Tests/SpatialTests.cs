@@ -22,7 +22,7 @@ namespace AstoriaUnitTests.Tests.Server
     using System.IO;
     using ServiceOperation = Microsoft.OData.Service.Providers.ServiceOperation;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/868
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/868
     [TestClass]
     public class SpatialTests
     {

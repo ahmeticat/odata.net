@@ -334,7 +334,7 @@ namespace AstoriaUnitTests.Tests
                 }
             }
 
-            // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+            // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
             [Ignore] // Remove Atom
             // [TestMethod, Variation("Test QueryIntercepters defined on the subclass of DataService<T>")]
             public void IDSPQueryIntercepterTest()
@@ -2542,7 +2542,7 @@ namespace AstoriaUnitTests.Tests
                 }
             }
             #endregion
-            // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+            // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
             // [TestMethod, Variation("Test that we correctly Dispose query results.")]
             public void EnumeratorDisposeAfterQuery()
             {

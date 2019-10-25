@@ -4,7 +4,7 @@ There are many ways for you to contribute to OData .NET. The easiest way is to p
 
 ## 1. Discussion
 
-You can participate into discussions and ask questions about OData .NET at our [Github issues](https://github.com/OData/odata.net/issues).
+You can participate into discussions and ask questions about OData .NET at our [Github issues](https://github.com/ahmeticat/odata.net/issues).
 
 ## 2. Bug reports
 
@@ -16,7 +16,7 @@ When reporting a bug at the issue tracker, fill the template of issue. The issue
 
 ### Pick an issue to work on
 
-You should either create or pick an issue on the [issue tracker](https://github.com/OData/odata.net/issues) before you work on the pull request. After the OData .NET team has reviewed this issue and change its label to "accepting pull request", you can work on the code change.
+You should either create or pick an issue on the [issue tracker](https://github.com/ahmeticat/odata.net/issues) before you work on the pull request. After the OData .NET team has reviewed this issue and change its label to "accepting pull request", you can work on the code change.
 
 ### Prepare Tools
 
@@ -27,9 +27,9 @@ Visual Studio 2013 or 2015 is recommended for code contribution.
 
 These are the recommended steps to create a pull request:
 
-1. Create a forked repository of [https://github.com/OData/odata.net.git](https://github.com/OData/odata.net.git)
+1. Create a forked repository of [https://github.com/ahmeticat/odata.net.git](https://github.com/ahmeticat/odata.net.git)
 2. Clone the forked repository into your local environment
-3. Add a git remote to upstream for local repository with command _git remote add upstream [https://github.com/OData/odata.net.git](https://github.com/OData/odata.net.git)_
+3. Add a git remote to upstream for local repository with command _git remote add upstream [https://github.com/ahmeticat/odata.net.git](https://github.com/ahmeticat/odata.net.git)_
 4. Make code changes and add test cases, refer Test specification section for more details about test
 5. Test the changed codes with one-click build and test script
 6. Commit changed code to local repository with clear message
@@ -58,4 +58,4 @@ Now we have introduced the modern xUnit test projects for OData.NET (in `OData.N
 
 You will need to complete a Contributor License Agreement (CLA). Briefly, this agreement testifies that you are granting us permission to use the submitted change according to the terms of the project's license, and that the work being submitted is under appropriate copyright.
 
-Please submit a Contributor License Agreement (CLA) before submitting a pull request. Download the agreement ([Microsoft Contribution License Agreement.pdf](https://github.com/odata/odatacpp/wiki/files/Microsoft Contribution License Agreement.pdf)), sign, scan, and email it back to [cla@microsoft.com](mailto:cla@microsoft.com). Be sure to include your Github user name along with the agreement. Only after we have received the signed CLA, we'll review the pull request that you send. You only need to do this once for contributing to any Microsoft open source projects.
+Please submit a Contributor License Agreement (CLA) before submitting a pull request. Download the agreement ([Microsoft Contribution License Agreement.pdf](https://github.com/ahmeticat/odatacpp/wiki/files/Microsoft Contribution License Agreement.pdf)), sign, scan, and email it back to [cla@microsoft.com](mailto:cla@microsoft.com). Be sure to include your Github user name along with the agreement. Only after we have received the signed CLA, we'll review the pull request that you send. You only need to do this once for contributing to any Microsoft open source projects.

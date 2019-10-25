@@ -100,7 +100,7 @@ namespace AstoriaUnitTests.Tests
         }
 
         /*
-         * https://github.com/OData/odata.net/issues/839
+         * https://github.com/ahmeticat/odata.net/issues/839
          * There's one failed case in here. See comment.
         [TestCategory("Partition2")]
         [TestMethod]
@@ -150,7 +150,7 @@ namespace AstoriaUnitTests.Tests
         }
 
         /*
-         * https://github.com/OData/odata.net/issues/840
+         * https://github.com/ahmeticat/odata.net/issues/840
         [TestCategory("Partition2")]
         [TestMethod]
         public void KeyAsSegmentUriParsingSmokeTestForKeysWithParens()
@@ -177,7 +177,7 @@ namespace AstoriaUnitTests.Tests
         */
 
         /*
-         * https://github.com/OData/odata.net/issues/841
+         * https://github.com/ahmeticat/odata.net/issues/841
         [TestCategory("Partition2")]
         [TestMethod]
         public void KeyAsSegmentMetadataSmokeTest()

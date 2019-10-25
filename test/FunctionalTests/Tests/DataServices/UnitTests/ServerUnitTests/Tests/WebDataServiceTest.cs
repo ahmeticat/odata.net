@@ -31,7 +31,7 @@ namespace AstoriaUnitTests.Tests
 
     #endregion Namespaces
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
     /// <summary>
     /// This is a test class for WebDataServiceTest and is intended
     /// to contain all WebDataServiceTest Unit Tests

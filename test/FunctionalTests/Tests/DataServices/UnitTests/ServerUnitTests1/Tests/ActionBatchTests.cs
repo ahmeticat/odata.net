@@ -16,7 +16,7 @@ using t = System.Data.Test.Astoria;
 
 namespace AstoriaUnitTests.Tests.Server
 {
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/868
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/868
     [TestClass]
     public class ActionBatchTests
     {

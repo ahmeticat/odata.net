@@ -853,7 +853,7 @@ namespace AstoriaUnitTests.Tests
             }
         }
 
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
         [Ignore] // Remove Atom
         // [TestMethod]
         public void OpenTypeGetOpenPropertyValuesWithNull()

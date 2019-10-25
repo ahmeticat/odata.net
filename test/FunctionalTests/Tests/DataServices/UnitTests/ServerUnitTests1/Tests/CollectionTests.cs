@@ -25,7 +25,7 @@ namespace AstoriaUnitTests.Tests
     using providers = Microsoft.OData.Service.Providers;
     using p=Microsoft.OData.Service.Providers;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/868
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/868
     [Ignore] // Remove Atom
     [TestModule]
     public partial class UnitTestModule1

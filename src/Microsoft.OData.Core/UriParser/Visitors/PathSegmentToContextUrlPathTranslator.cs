@@ -198,7 +198,7 @@ namespace Microsoft.OData.UriParser
         public override string Translate(ReferenceSegment segment)
         {
             // How a ReferenceSegment should be addressed in the context URI is still a pending decision.
-            // https://github.com/OData/odata.net/issues/1292
+            // https://github.com/ahmeticat/odata.net/issues/1292
             return string.Empty;
         }
 

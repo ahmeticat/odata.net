@@ -18,7 +18,7 @@ namespace AstoriaUnitTests.Tests
     using efpoco = AstoriaUnitTests.EFFK;
     using ocs = AstoriaUnitTests.ObjectContextStubs;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/868
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/868
     /// <summary>This class contains inner classes that can run as LTM tests.</summary>
     [TestModule]
     public partial class UnitTestModule1

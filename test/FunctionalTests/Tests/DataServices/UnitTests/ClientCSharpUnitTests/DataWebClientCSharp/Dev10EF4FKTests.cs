@@ -127,7 +127,7 @@ namespace AstoriaUnitTests.Tests
     using EFFK = AstoriaUnitTests.EFFK;
     using EFFKClient = AstoriaUnitTests.EFFK.Client;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/880
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/880
     [TestClass]
     public class EFFKTests
     {

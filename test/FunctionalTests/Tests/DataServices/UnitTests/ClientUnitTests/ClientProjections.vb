@@ -19,7 +19,7 @@ Imports System.Linq.Expressions
 
 Partial Public Class ClientModule
 
-    ' For comment out test cases, see github: https://github.com/OData/odata.net/issues/887
+    ' For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/887
     'Remove Atom
     ' <TestClass()>
     Public Class ClientProjectionTests
@@ -425,7 +425,7 @@ Partial Public Class ClientModule
     End Class
 
 #Region "Cross Feature Tests - Type Resolving/Projections/SDP Client"
-    ' For comment out test cases, see github: https://github.com/OData/odata.net/issues/887
+    ' For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/887
     'Remove Atom
     ' <TestClass()>
      Public Class ClientProjectionTypeResolvingTests

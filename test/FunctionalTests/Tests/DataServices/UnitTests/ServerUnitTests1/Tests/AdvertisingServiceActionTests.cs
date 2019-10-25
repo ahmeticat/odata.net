@@ -24,7 +24,7 @@ namespace AstoriaUnitTests.Tests.Server
 
     #endregion Namespaces
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/868
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/868
     /// <summary>This is a test class for Advertising service operations.</summary>
     [TestClass()]
     public class AdvertisingServiceActionsTests

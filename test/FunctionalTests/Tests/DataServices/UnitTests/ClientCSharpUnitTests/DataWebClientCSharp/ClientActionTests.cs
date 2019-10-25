@@ -38,7 +38,7 @@ namespace AstoriaUnitTests
     /// entity, collection of entity, entity queryable. Collection of primitive and collection
     /// of complex are included but require a slightly different pattern for use.
     /// </remarks>
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/881
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/881
     [Ignore] // Remove Atom
     // [TestClass]
     public class ClientActionTests

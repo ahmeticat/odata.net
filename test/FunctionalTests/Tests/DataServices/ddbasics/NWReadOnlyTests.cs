@@ -21,7 +21,7 @@ namespace AstoriaUnitTests
 
     public partial class ClientModule
     {
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/885
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/885
         /// <summary>
         /// Northwind database, read only tests
         /// </summary>

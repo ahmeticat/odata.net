@@ -46,4 +46,4 @@ We typically redirect questions to Stack Overflow, a forum better suited to gett
 We are always open to feedback on how we should revise this process. Feel free to send your feedback to odatafeedback@microsoft.com.
 
 [odata.net repository]: https://www.github.com/odata/odata.net
-[contributing]: https://github.com/OData/odata.net/blob/master/.github/CONTRIBUTING.md
+[contributing]: https://github.com/ahmeticat/odata.net/blob/master/.github/CONTRIBUTING.md

@@ -43,7 +43,7 @@ namespace AstoriaUnitTests.Tests
     [TestModule]
     public partial class RegressionUnitTestModule : AstoriaTestModule
     {
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/876
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/876
         /// <summary>This is a test class for adding regression tests.</summary>
         [TestClass, TestCase]
         public class RegressionTestDev11 : AstoriaTestCase

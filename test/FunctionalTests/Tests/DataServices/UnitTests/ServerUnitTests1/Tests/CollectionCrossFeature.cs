@@ -23,7 +23,7 @@ namespace AstoriaUnitTests.Tests
     using Microsoft.Test.ModuleCore;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/868
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/868
     [TestModule]
     public partial class UnitTestModule1
     {

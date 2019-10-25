@@ -15,7 +15,7 @@ Imports Microsoft.Test.ModuleCore
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 Imports p = Microsoft.OData.Service.Providers
 
-' For comment out test cases, see github: https://github.com/OData/odata.net/issues/887
+' For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/887
 'Remove Atom
 ' <TestClass()>
 Public Class NamedStream_ProjectionTests_VB

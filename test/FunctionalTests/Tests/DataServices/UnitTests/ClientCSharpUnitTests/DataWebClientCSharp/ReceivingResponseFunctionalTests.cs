@@ -26,7 +26,7 @@ namespace AstoriaUnitTests.DataWebClientCSharp
     /// We set up a server that always adds a custom header to the responses, and then try to read it
     /// in ReceivingResponse on the client in each of the various code paths.
     /// </summary>
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/880
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/880
     [Ignore] // Remove Atom
     // [TestClass]
     public class ReceivingResponseFunctionalTests

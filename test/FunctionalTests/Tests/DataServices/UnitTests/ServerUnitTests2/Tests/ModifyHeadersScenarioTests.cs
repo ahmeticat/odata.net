@@ -19,7 +19,7 @@ namespace AstoriaUnitTests.Tests
     using AstoriaUnitTests.Tests.Server;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/875
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/875
     /// <summary>
     /// Tests to ensure that service authors can overwrite header values in our public hooks and the changes are persisted.
     /// </summary>

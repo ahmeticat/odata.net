@@ -41,7 +41,7 @@ namespace Microsoft.Test.Taupo.OData.Query.Tests.MetadataBinder
             action.ShouldThrow<ODataException>().WithMessage(ODataErrorStrings.MetadataBinder_BoundNodeCannotBeNull(token.Kind));
         }
 
-        /* github issue: https://github.com/OData/odata.net/issues/864
+        /* github issue: https://github.com/ahmeticat/odata.net/issues/864
         [TestMethod]
         public void KeyLookupBinderErrorTest()
         {

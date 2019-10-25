@@ -17,7 +17,7 @@ namespace AstoriaUnitTests.Tests
     using test = System.Data.Test.Astoria;
     using BindingFlags = System.Reflection.BindingFlags;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
     [TestClass]
     public class CreateODataWriterTests
     {

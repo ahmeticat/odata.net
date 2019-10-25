@@ -25,7 +25,7 @@ namespace AstoriaUnitTests.Tests
 
     #endregion Namespaces
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/881
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/881
     [Ignore] // Remove Atom
     // [TestClass]
     public class JsonLightIntegrationTests

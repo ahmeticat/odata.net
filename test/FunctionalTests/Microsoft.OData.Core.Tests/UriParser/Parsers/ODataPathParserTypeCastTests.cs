@@ -482,7 +482,7 @@ namespace Microsoft.OData.Tests.UriParser.Parsers
         #endregion Navigation Property type cast
 
         #region Type definition type cast
-        [Theory(Skip = "Should pass if fix issue: see: https://github.com/OData/odata.net/issues/1326")]
+        [Theory(Skip = "Should pass if fix issue: see: https://github.com/ahmeticat/odata.net/issues/1326")]
         [InlineData("Edm.PrimitiveType")] // cast to itself
         [InlineData("Edm.Int32")]
         [InlineData("Edm.Boolean")]
@@ -505,7 +505,7 @@ namespace Microsoft.OData.Tests.UriParser.Parsers
             path[3].ShouldBeTypeSegment(property.Type.Definition, expectType);
         }
 
-        [Theory(Skip = "Should pass if fix issue: see: https://github.com/OData/odata.net/issues/1326")]
+        [Theory(Skip = "Should pass if fix issue: see: https://github.com/ahmeticat/odata.net/issues/1326")]
         [InlineData("true")]
         [InlineData("false")]
         public void ParseTypeCastOnTypeDefinitionPropertyWithDerivedTypeConstraintAnnotationWorks(bool isInLine)

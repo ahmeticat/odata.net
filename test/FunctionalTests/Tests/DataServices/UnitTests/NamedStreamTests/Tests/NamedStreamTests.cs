@@ -34,7 +34,7 @@ namespace AstoriaUnitTests.Tests
     [TestModule]
     public class NamedStreamUnitTestModule : AstoriaTestModule
     {
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/867
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/867
         [TestClass()]
         public class NamedStreamTests
         {

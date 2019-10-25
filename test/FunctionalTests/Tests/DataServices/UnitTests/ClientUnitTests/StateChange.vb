@@ -18,7 +18,7 @@ Imports AstoriaUnitTests.Stubs
 Imports Microsoft.Test.ModuleCore
 
 Partial Public Class ClientModule
-    ' For comment out test cases, see github: https://github.com/OData/odata.net/issues/887
+    ' For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/887
     <TestClass()> Public Class StateChange
 
         Private Shared web As TestWebRequest = Nothing

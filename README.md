@@ -6,7 +6,7 @@ Nightly | <img src="https://identitydivision.visualstudio.com/_apis/public/build
 
 ## 1. Introduction
 
-The [OData .NET Libraries](http://odata.github.io/odata.net) (or OData .NET, for short) project includes the implementation of core functionalities of OData protocol on the .NET platform which includes URI parsing, request and response reading and writing, Entity Data Model (EDM) building, and also a .Net OData client which can be used to consume OData service. It is a fully open sourced project maintained by Microsoft OData team. The libraries are used by [WebApi](https://github.com/OData/WebApi/ "WebApi") and [RESTier](https://github.com/odata/RESTier/ "RESTier") which are recommended to be adopted to build new OData Services.
+The [OData .NET Libraries](http://odata.github.io/odata.net) (or OData .NET, for short) project includes the implementation of core functionalities of OData protocol on the .NET platform which includes URI parsing, request and response reading and writing, Entity Data Model (EDM) building, and also a .Net OData client which can be used to consume OData service. It is a fully open sourced project maintained by Microsoft OData team. The libraries are used by [WebApi](https://github.com/ahmeticat/WebApi/ "WebApi") and [RESTier](https://github.com/ahmeticat/RESTier/ "RESTier") which are recommended to be adopted to build new OData Services.
 
 [OData](http://www.odata.org/ "OData") stands for the Open Data Protocol. It was initiated by Microsoft and is now an [ISO](https://www.oasis-open.org/news/pr/iso-iec-jtc-1-approves-oasis-odata-standard-for-open-data-exchange) approved and [OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=odata) standard. OData enables the creation and consumption of REST APIs, which allow resources, identified using URLs and defined in a data model, to be published and edited by Web clients using simple HTTP requests.
 
@@ -23,11 +23,11 @@ For more information about OData, please refer to the following resources:
 
 ## 2. Project structure
 
-The project currently has six branches: [master](https://github.com/OData/odata.net/tree/master), [release](https://github.com/OData/odata.net/tree/release), [gh-pages](https://github.com/OData/odata.net/tree/gh-pages), [maintenance-6.x](https://github.com/OData/odata.net/tree/maintenance-6.x), [maintenance-5.x](https://github.com/OData/odata.net/tree/maintenance-5.x), and [maintenance-wcf-dataservice-v4](https://github.com/OData/odata.net/tree/maintenance-wcf-dataservice-v4).
+The project currently has six branches: [master](https://github.com/ahmeticat/odata.net/tree/master), [release](https://github.com/ahmeticat/odata.net/tree/release), [gh-pages](https://github.com/ahmeticat/odata.net/tree/gh-pages), [maintenance-6.x](https://github.com/ahmeticat/odata.net/tree/maintenance-6.x), [maintenance-5.x](https://github.com/ahmeticat/odata.net/tree/maintenance-5.x), and [maintenance-wcf-dataservice-v4](https://github.com/ahmeticat/odata.net/tree/maintenance-wcf-dataservice-v4).
 
 **master branch:**
 
-This master branch is the development branch for ODataV4 7.x and is now most actively iterated. It builds upon the OData 6.15 release which is now on [maintenance-6.x branch](https://github.com/OData/odata.net/tree/maintenance-6.x) and produces both [PCL (Portable Class Libraries) Profile111](https://msdn.microsoft.com/library/gg597391.aspx) and [.NET Standard 1.1](https://docs.microsoft.com/en-us/dotnet/articles/standard/library) libraries. The branch builds mostly with Visual Studio 2015, and it is undergoing migration towards Visual Studio 2017; currently, the .NET Standard and .NET Core projects have been migrated. Due to the number of test projects, complete migration to the latest version of Visual Studio will be broken down into multiple steps. The code is shared between the .NET Framework and .NET Standard platforms, and you may use either Visual Studio 2015/2017 to contribute.
+This master branch is the development branch for ODataV4 7.x and is now most actively iterated. It builds upon the OData 6.15 release which is now on [maintenance-6.x branch](https://github.com/ahmeticat/odata.net/tree/maintenance-6.x) and produces both [PCL (Portable Class Libraries) Profile111](https://msdn.microsoft.com/library/gg597391.aspx) and [.NET Standard 1.1](https://docs.microsoft.com/en-us/dotnet/articles/standard/library) libraries. The branch builds mostly with Visual Studio 2015, and it is undergoing migration towards Visual Studio 2017; currently, the .NET Standard and .NET Core projects have been migrated. Due to the number of test projects, complete migration to the latest version of Visual Studio will be broken down into multiple steps. The code is shared between the .NET Framework and .NET Standard platforms, and you may use either Visual Studio 2015/2017 to contribute.
 
 For each profile above, it has the following libraries:
 
@@ -42,7 +42,7 @@ Note: Per the [.NET Standard 1.1](https://docs.microsoft.com/en-us/dotnet/articl
 
 **release branch:**
 
-This branch is for ODataV4 7.x release developed on the [master branch](https://github.com/OData/odata.net/tree/master), contains most recently stable ODataV4 7.x release code base.
+This branch is for ODataV4 7.x release developed on the [master branch](https://github.com/ahmeticat/odata.net/tree/master), contains most recently stable ODataV4 7.x release code base.
 
 **gh-pages branch:**
 
@@ -67,7 +67,7 @@ These libraries are in maintenance mode. Only security bugs will be accepted. Th
 
 **maintenance-wcf-dataservice-v4 branch:** (maintenance mode)
 
-The maintenance-wcf-dataservice-v4 branch has the source code of the OData V4 parity of the WCF Data Services Server for OData v1-3. It is only for cloning and doesn't accept contributions. There is no binary release of it either. WCF DS is not recommended to be adopted now, instead [WebApi](https://github.com/OData/WebApi/ "WebApi") or [RESTier](https://github.com/odata/RESTier/ "RESTier") is recommended to be adopted to build new OData Services.
+The maintenance-wcf-dataservice-v4 branch has the source code of the OData V4 parity of the WCF Data Services Server for OData v1-3. It is only for cloning and doesn't accept contributions. There is no binary release of it either. WCF DS is not recommended to be adopted now, instead [WebApi](https://github.com/ahmeticat/WebApi/ "WebApi") or [RESTier](https://github.com/ahmeticat/RESTier/ "RESTier") is recommended to be adopted to build new OData Services.
 
 ## 3. Building, Testing, Debugging and Release
 
@@ -140,11 +140,11 @@ Please visit the [ODataLib pages](http://odata.github.io/odata.net). It has deta
 
 ### 5.1 Contribution
 
-There are many ways for you to contribute to OData .NET. The easiest way is to participate in discussion of features and issues. You can also contribute by sending pull requests of features or bug fixes to us. Contribution to the documentations is also highly welcomed. Please refer to the [CONTRIBUTING.md](https://github.com/OData/odata.net/blob/master/.github/CONTRIBUTING.md) for more details.
+There are many ways for you to contribute to OData .NET. The easiest way is to participate in discussion of features and issues. You can also contribute by sending pull requests of features or bug fixes to us. Contribution to the documentations is also highly welcomed. Please refer to the [CONTRIBUTING.md](https://github.com/ahmeticat/odata.net/blob/master/.github/CONTRIBUTING.md) for more details.
 
 ### 5.2 Support
 
-- Issues: Report issues on [Github issues](https://github.com/OData/odata.net/issues).
+- Issues: Report issues on [Github issues](https://github.com/ahmeticat/odata.net/issues).
 - Questions: Ask questions on [Stack Overflow](http://stackoverflow.com/questions/ask?tags=odata).
 - Feedback: Please send mails to [odatafeedback@microsoft.com](mailto:odatafeedback@microsoft.com).
 - Team blog: Please visit [http://blogs.msdn.com/b/odatateam/](http://blogs.msdn.com/b/odatateam/) and [http://www.odata.org/blog/](http://www.odata.org/blog/).

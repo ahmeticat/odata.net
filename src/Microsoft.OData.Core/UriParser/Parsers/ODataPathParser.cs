@@ -1078,7 +1078,7 @@ namespace Microsoft.OData.UriParser
             /*
              * For Non-KeyAsSegment, try to handle it as a key property value, unless it was preceeded by an excape - marker segment('$').
              * For KeyAsSegment, the following precedence rules should be supported[ODATA - 799]:
-             * Try to match an OData segment(starting with “$”).
+             * Try to match an OData segment(starting with ï¿½$ï¿½).
              *   - Note: $filter path segment is a special case that has the format "$filter(@a)", where @a represents an alias.
              * Try to match an alias - qualified bound action name, bound function overload, or type name.
              * Try to match a namespace-qualified bound action name, bound function overload, or type name.
@@ -1524,7 +1524,7 @@ namespace Microsoft.OData.UriParser
                 IEdmProperty edmProperty = propertySegment.Property;
                 VerifyDerivedTypeConstraints(this.configuration.Model, edmProperty, fullTypeName, "property", edmProperty.Name);
 
-                // Verify the Type Definition, the following codes should work if fix: https://github.com/OData/odata.net/issues/1326
+                // Verify the Type Definition, the following codes should work if fix: https://github.com/ahmeticat/odata.net/issues/1326
                 /*
                 IEdmTypeReference propertyTypeReference = edmProperty.Type;
                 if (edmProperty.Type.IsCollection())
@@ -1544,7 +1544,7 @@ namespace Microsoft.OData.UriParser
 
             // operation: ~/Users(1)/NS.Operation(...)/NS.Cast
             // TODO: we should support to verify the casting for the operation return type.
-            // however, ODL doesn't support to annotation on the return type, see https://github.com/OData/odata.net/issues/52
+            // however, ODL doesn't support to annotation on the return type, see https://github.com/ahmeticat/odata.net/issues/52
             // Once ODL supports to annotation on the return type, we should support to verify it.
             /*
             OperationSegment operationSegment = previous as OperationSegment;

@@ -39,7 +39,7 @@ namespace Microsoft.Test.Taupo.OData.Writer.Tests.Writer
     /// <summary>
     /// Tests for writing entries with the OData writer.
     /// </summary>
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/883
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/883
     // [TestClass, TestCase]
     public class WriterEntryTests : ODataWriterTestCase
     {

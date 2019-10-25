@@ -25,7 +25,7 @@ namespace AstoriaUnitTests.Tests
     using System.Text;
     using System.Xml.Linq;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
     [TestClass]
     public class UriParserIntegrationTests
     {
@@ -226,7 +226,7 @@ namespace AstoriaUnitTests.Tests
                 typeof (UriParserIntegrationTestServiceWithHiddenNavigation));
         }
         [Ignore] // Remove Atom
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
         // [TestCategory("Partition2")]
         // [TestMethod]
         public void XmlKeyLookupShouldWork()
@@ -238,7 +238,7 @@ namespace AstoriaUnitTests.Tests
                 "//atom:entry/atom:id[text()=\"http://host/EntitiesWithXmlKeys('%3Cfake%20%2F%3E')\"]");
         }
         [Ignore] // Remove Atom
-        // For comment out test cases, see github: https://github.com/OData/odata.net/issues/877
+        // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/877
         // [TestCategory("Partition2")]
         // [TestMethod]
         public void XmlComparisonInFilterShouldNotWork()

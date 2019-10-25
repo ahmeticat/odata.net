@@ -24,7 +24,7 @@ namespace Microsoft.Test.Taupo.OData.Writer.Tests.Writer
     using Microsoft.Test.Taupo.OData.Writer.Tests.Json;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    // For comment out test cases, see github: https://github.com/OData/odata.net/issues/883
+    // For comment out test cases, see github: https://github.com/ahmeticat/odata.net/issues/883
     /// <summary>
     /// Tests to verify writer correctly validates input
     /// </summary>
